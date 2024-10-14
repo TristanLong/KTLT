@@ -74,7 +74,7 @@ int demPTChiaHetCho3Va5(DaySo a) {
 // BÀI TẬP TỔNG HỢP 
 //1
 bool isPrime(int n) {
-	for (int i = 2; i < sqrt(n); i++) {
+	for (int i = 2; i <= sqrt(n); i++) {
 		if (i % 2 == 0)
 			return false;
 	}
